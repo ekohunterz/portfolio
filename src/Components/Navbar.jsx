@@ -40,7 +40,7 @@ const Navbar = () => {
 
   const Button = () => {
     return (
-      <Link to="hero" smooth={true} offset={-70} duration={500} className="rounded-full cursor-pointer hover:scale-110 hover:opacity-70 bg-secondary text-2xl px-4 py-2 fixed bottom-20 right-20 text-bold">
+      <Link to="hero" smooth={true} offset={-70} duration={500} className="rounded-full cursor-pointer hover:scale-110 hover:opacity-70 bg-secondary text-2xl px-4 py-2 fixed bottom-20 right-20 sm:right-4 text-bold">
         <i class="fas fa-arrow-up text-slate-300" />
       </Link>
     );
