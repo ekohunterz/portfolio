@@ -9,7 +9,7 @@ const ProjectItem = ({ imageSrc, altText, title, description, technologies, demo
       </div>
       <div className="bg-white h-full px-6 py-4 overflow-hidden">
         <p className="text-gray-700 text-base">{description}</p>
-        <div className="flex py-2 gap-x-2">
+        <div className="flex flex-wrap py-2 gap-2">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-gray-200 rounded-full p-2 inline-block text-sm text-gray-700">
               {tech}
