@@ -54,9 +54,18 @@ const Project = () => {
       altText: "absen-laravel",
       title: "Absensi Siswa SMK (Laravel 10)",
       description: "Aplikasi ini sama seperti project sebelumnya namun dibangun menggunakan Laravel 10. Yang mana pada project ini terdapat perbaikan dan penambahan fitur.",
-      technologies: ["PHP", "MySQL", "Laravel", "Bootstrap 5"],
-      demoLink: "",
+      technologies: ["MySQL", "Laravel", "Bootstrap 5"],
+      demoLink: "#",
       githubLink: "https://github.com/ekohunterz/absensi-siswa-laravel",
+    },
+    {
+      imageSrc: "perpus.png",
+      altText: "perpus",
+      title: "Manajemen Perpustakaan (Laravel 10)",
+      description: "Aplikasi ini adalah sebuah sistem manajemen perpustakaan yang dibangun untuk membantu sekolah dalam mengelola dan mengatur koleksi buku serta peminjaman buku oleh siswa.",
+      technologies: ["Laravel", "MySQL", "jQuery", "Bootstrap 5"],
+      demoLink: "#",
+      githubLink: "https://github.com/ekohunterz/perpustakaan",
     },
   ];
 
