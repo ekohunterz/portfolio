@@ -67,6 +67,15 @@ const Project = () => {
       demoLink: "#",
       githubLink: "https://github.com/ekohunterz/perpustakaan",
     },
+    {
+      imageSrc: "bayes.png",
+      altText: "bayes",
+      title: "Sistem Pakar Metode Teorema Bayes (Laravel 10)",
+      description: "Sistem pakar diagnosis penyakit kucing menggunakan metode Teorema Bayes adalah sebuah aplikasi berbasis teknologi informasi yang dirancang untuk membantu mengidentifikasi dan mendiagnosis penyakit yang mungkin dialami berdasarkan gejala-gejala yang ditampilkan.",
+      technologies: ["Laravel", "MySQL", "jQuery", "Bootstrap 5"],
+      demoLink: "https://youtu.be/CTvgr71NRfE",
+      githubLink: "#",
+    },
   ];
 
   return (

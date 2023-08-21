@@ -18,7 +18,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-2xl font-semibold mt-3">
-              I'm Fresh Graduate From <span className="text-red-800">Serang Raya University</span>
+              Junior <span className="text-red-800">Web Developer</span>
             </p>
             <br />
             <a href="#" className="bg-blue-800 py-2 px-10 text-xl text-white rounded-full shadow-md hover:bg-blue-950 transition duration-300 ease-in-out inline-block hover:scale-110">
